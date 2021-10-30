@@ -1,0 +1,898 @@
+{
+    "errno": 0,
+    "ecode": "SUCCEED",
+    "error": "Succeed.",
+    "entities": [{
+        "userId": "21aaa648-d418-4d83-a427-f5ff59d8abe1",
+        "viewId": "21aaa648-d418-4d83-a427-f5ff59d8abe1",
+        "app": {
+            "code": "ABCDEFGH",
+            "department": "现代教育信息中心",
+            "contact": "024-88487016",
+            "recommend": 3,
+            "visible": true,
+            "ready": true,
+            "id": "21aaa648-d418-4d83-a427-f5ff59d8abe1",
+            "name": "学生出入校权限查询",
+            "tags": "学生服务"
+        },
+        "step": {
+            "stepId": 1,
+            "taskId": "21aaa648-d418-4d83-a427-f5ff59d8abe1",
+            "name": "查询",
+            "code": "TXSQ",
+            "status": 1,
+            "flowStepId": 1234567,
+            "assignUser": "21aaa648-d418-4d83-a427-f5ff59d8abe1",
+            "assignTime": 1635601104,
+            "executorSelection": 0,
+            "renderTime": 1635601106,
+            "timestamp": 1635601104,
+            "printAfterAction": false,
+            "exportReadOnly": false,
+            "allowChangePriority": false,
+            "posts": [],
+            "users": [],
+            "parallel": false,
+            "hasInstantNotification": false,
+            "hasCarbonCopy": false,
+            "entryId": 1094212,
+            "instanceId": "21aaa648-d418-4d83-a427-f5ff59d8abe1",
+            "instanceName": "学生出入校权限查询",
+            "instanceTags": "学生服务",
+            "entryStatus": 1,
+            "entryRelease": true,
+            "entryPriority": 3,
+            "definitionId": "21aaa648-d418-4d83-a427-f5ff59d8abe1",
+            "definitionVersion": 1626058564
+        },
+        "views": [{
+            "name": "视图 1",
+            "generator": "Unknown",
+            "styleSheet": [],
+            "renders": [{
+                    "display": "Inline",
+                    "renders": [{
+                        "columns": [{
+                            "attributes": [{
+                                "key": "style",
+                                "value": "WIDTH: 900px"
+                            }],
+                            "renderType": "Renderable",
+                            "renderCategory": "Renderable",
+                            "width": 900
+                        }],
+                        "renders": [{
+                                "renders": [{
+                                    "renders": [{
+                                        "display": "Inline",
+                                        "renders": [{
+                                            "size": 6,
+                                            "renders": [{
+                                                "text": "学生出校申请查询",
+                                                "renderType": "DisplayText",
+                                                "renderCategory": "Displayable"
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                "key": "size",
+                                                "value": "6"
+                                            }],
+                                            "renderType": "LayoutFont",
+                                            "renderCategory": "Layoutable"
+                                        }],
+                                        "repeatable": false,
+                                        "renderType": "LayoutDivision",
+                                        "renderCategory": "Layoutable"
+                                    }],
+                                    "repeatable": false,
+                                    "attributes": [{
+                                            "key": "class",
+                                            "value": "xdTitleCell"
+                                        },
+                                        {
+                                            "key": "style",
+                                            "value": "BORDER-TOP: #bfbfbf 1pt; BORDER-RIGHT: #bfbfbf 1pt; BORDER-BOTTOM: #808080 6pt; BORDER-LEFT: #bfbfbf 1pt"
+                                        },
+                                        {
+                                            "key": "vAlign",
+                                            "value": "bottom"
+                                        }
+                                    ],
+                                    "renderType": "LayoutTableCell",
+                                    "renderCategory": "Layoutable"
+                                }],
+                                "repeatable": false,
+                                "attributes": [{
+                                    "key": "class",
+                                    "value": "xdTitleRow"
+                                }],
+                                "renderType": "LayoutTableRow",
+                                "renderCategory": "Layoutable"
+                            },
+                            {
+                                "renders": [{
+                                    "renders": [{
+                                            "display": "Inline",
+                                            "renders": [{
+                                                    "readOnly": false,
+                                                    "field": "fieldTP",
+                                                    "controlId": "V1_CTRL4",
+                                                    "attributes": [{
+                                                            "key": "style",
+                                                            "value": "FONT-SIZE: medium; HEIGHT: 270px; FONT-FAMILY: 微软雅黑; WIDTH: 329px"
+                                                        },
+                                                        {
+                                                            "key": "class",
+                                                            "value": "xdTextBox"
+                                                        },
+                                                        {
+                                                            "key": "title",
+                                                            "value": ""
+                                                        }
+                                                    ],
+                                                    "renderType": "BoundPicture",
+                                                    "renderCategory": "Boundable",
+                                                    "properties": []
+                                                },
+                                                {
+                                                    "size": 4,
+                                                    "renders": [],
+                                                    "repeatable": false,
+                                                    "attributes": [{
+                                                        "key": "size",
+                                                        "value": "4"
+                                                    }],
+                                                    "renderType": "LayoutFont",
+                                                    "renderCategory": "Layoutable"
+                                                }
+                                            ],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                "readOnly": false,
+                                                "field": "fieldXM",
+                                                "controlId": "V1_CTRL9",
+                                                "attributes": [{
+                                                        "key": "style",
+                                                        "value": "FONT-SIZE: medium; FONT-FAMILY: 微软雅黑; WIDTH: 100%"
+                                                    },
+                                                    {
+                                                        "key": "class",
+                                                        "value": "xdTextBox"
+                                                    },
+                                                    {
+                                                        "key": "title",
+                                                        "value": ""
+                                                    }
+                                                ],
+                                                "renderType": "BoundLabel",
+                                                "renderCategory": "Boundable",
+                                                "properties": []
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                    "size": 4,
+                                                    "renders": [{
+                                                            "text": "",
+                                                            "attributes": [{
+                                                                "key": "class",
+                                                                "value": "xdlabel"
+                                                            }],
+                                                            "renderType": "DisplayText",
+                                                            "renderCategory": "Displayable"
+                                                        },
+                                                        {
+                                                            "text": "",
+                                                            "attributes": [{
+                                                                "key": "class",
+                                                                "value": "xdlabel"
+                                                            }],
+                                                            "renderType": "DisplayText",
+                                                            "renderCategory": "Displayable"
+                                                        }
+                                                    ],
+                                                    "repeatable": false,
+                                                    "attributes": [{
+                                                        "key": "size",
+                                                        "value": "4"
+                                                    }],
+                                                    "renderType": "LayoutFont",
+                                                    "renderCategory": "Layoutable"
+                                                },
+                                                {
+                                                    "text": " ",
+                                                    "renderType": "DisplayText",
+                                                    "renderCategory": "Displayable"
+                                                }
+                                            ],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                "readOnly": false,
+                                                "field": "fieldBM",
+                                                "controlId": "V1_CTRL10",
+                                                "attributes": [{
+                                                        "key": "style",
+                                                        "value": "FONT-SIZE: medium; FONT-FAMILY: 微软雅黑; WIDTH: 100%"
+                                                    },
+                                                    {
+                                                        "key": "class",
+                                                        "value": "xdTextBox"
+                                                    },
+                                                    {
+                                                        "key": "title",
+                                                        "value": ""
+                                                    }
+                                                ],
+                                                "renderType": "BoundLabel",
+                                                "renderCategory": "Boundable",
+                                                "properties": []
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Block",
+                                            "renders": [{
+                                                "size": 4,
+                                                "renders": [],
+                                                "repeatable": false,
+                                                "attributes": [{
+                                                    "key": "size",
+                                                    "value": "4"
+                                                }],
+                                                "renderType": "LayoutFont",
+                                                "renderCategory": "Layoutable"
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                "key": "class",
+                                                "value": "xdlabel"
+                                            }],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                "readOnly": false,
+                                                "field": "fieldZY",
+                                                "controlId": "V1_CTRL17",
+                                                "attributes": [{
+                                                        "key": "style",
+                                                        "value": "FONT-SIZE: medium; FONT-FAMILY: 微软雅黑; WIDTH: 100%"
+                                                    },
+                                                    {
+                                                        "key": "class",
+                                                        "value": "xdTextBox"
+                                                    },
+                                                    {
+                                                        "key": "title",
+                                                        "value": ""
+                                                    }
+                                                ],
+                                                "renderType": "BoundLabel",
+                                                "renderCategory": "Boundable",
+                                                "properties": []
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Block",
+                                            "renders": [{
+                                                "size": 4,
+                                                "renders": [],
+                                                "repeatable": false,
+                                                "attributes": [{
+                                                    "key": "size",
+                                                    "value": "4"
+                                                }],
+                                                "renderType": "LayoutFont",
+                                                "renderCategory": "Layoutable"
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                "key": "class",
+                                                "value": "xdlabel"
+                                            }],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                "readOnly": false,
+                                                "field": "fieldSJ",
+                                                "controlId": "V1_CTRL13",
+                                                "attributes": [{
+                                                        "key": "style",
+                                                        "value": "FONT-SIZE: medium; FONT-FAMILY: 微软雅黑; WIDTH: 100%; COLOR: #ff0000"
+                                                    },
+                                                    {
+                                                        "key": "class",
+                                                        "value": "xdTextBox"
+                                                    },
+                                                    {
+                                                        "key": "title",
+                                                        "value": ""
+                                                    }
+                                                ],
+                                                "renderType": "BoundLabel",
+                                                "renderCategory": "Boundable",
+                                                "properties": []
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                "readOnly": false,
+                                                "field": "fieldMS1",
+                                                "controlId": "V1_CTRL19",
+                                                "attributes": [{
+                                                        "key": "style",
+                                                        "value": "FONT-SIZE: medium; FONT-FAMILY: 微软雅黑; WIDTH: 100%"
+                                                    },
+                                                    {
+                                                        "key": "class",
+                                                        "value": "xdTextBox"
+                                                    },
+                                                    {
+                                                        "key": "title",
+                                                        "value": ""
+                                                    }
+                                                ],
+                                                "renderType": "BoundLabel",
+                                                "renderCategory": "Boundable",
+                                                "properties": []
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                "readOnly": false,
+                                                "field": "fieldCPH",
+                                                "controlId": "V1_CTRL20",
+                                                "attributes": [{
+                                                        "key": "style",
+                                                        "value": "FONT-SIZE: medium; FONT-FAMILY: 微软雅黑; WIDTH: 100%"
+                                                    },
+                                                    {
+                                                        "key": "class",
+                                                        "value": "xdTextBox"
+                                                    },
+                                                    {
+                                                        "key": "title",
+                                                        "value": ""
+                                                    }
+                                                ],
+                                                "renderType": "BoundLabel",
+                                                "renderCategory": "Boundable",
+                                                "properties": []
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "size": 4,
+                                            "renders": [{
+                                                    "text": "",
+                                                    "attributes": [{
+                                                        "key": "class",
+                                                        "value": "xdlabel"
+                                                    }],
+                                                    "renderType": "DisplayText",
+                                                    "renderCategory": "Displayable"
+                                                },
+                                                {
+                                                    "text": "",
+                                                    "attributes": [{
+                                                        "key": "class",
+                                                        "value": "xdlabel"
+                                                    }],
+                                                    "renderType": "DisplayText",
+                                                    "renderCategory": "Displayable"
+                                                }
+                                            ],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                "key": "size",
+                                                "value": "4"
+                                            }],
+                                            "renderType": "LayoutFont",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                "readOnly": false,
+                                                "field": "fieldMSG",
+                                                "controlId": "V1_CTRL12",
+                                                "attributes": [{
+                                                        "key": "style",
+                                                        "value": "FONT-SIZE: medium; FONT-FAMILY: 微软雅黑; WIDTH: 100%"
+                                                    },
+                                                    {
+                                                        "key": "class",
+                                                        "value": "xdTextBox"
+                                                    },
+                                                    {
+                                                        "key": "title",
+                                                        "value": ""
+                                                    }
+                                                ],
+                                                "renderType": "BoundLabel",
+                                                "renderCategory": "Boundable",
+                                                "properties": []
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                    "key": "align",
+                                                    "value": "center"
+                                                },
+                                                {
+                                                    "key": "style",
+                                                    "value": "LINE-HEIGHT: 2"
+                                                }
+                                            ],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        }
+                                    ],
+                                    "repeatable": false,
+                                    "attributes": [{
+                                            "key": "class",
+                                            "value": "xdTableContentCell"
+                                        },
+                                        {
+                                            "key": "style",
+                                            "value": "BORDER-TOP: #808080 6pt; BORDER-RIGHT: #bfbfbf 1pt; BORDER-BOTTOM: #808080 6pt; BORDER-LEFT: #bfbfbf 1pt"
+                                        },
+                                        {
+                                            "key": "vAlign",
+                                            "value": "top"
+                                        }
+                                    ],
+                                    "renderType": "LayoutTableCell",
+                                    "renderCategory": "Layoutable"
+                                }],
+                                "repeatable": false,
+                                "attributes": [{
+                                        "key": "style",
+                                        "value": "MIN-HEIGHT: 70px"
+                                    },
+                                    {
+                                        "key": "class",
+                                        "value": "xdTableContentRow"
+                                    }
+                                ],
+                                "renderType": "LayoutTableRow",
+                                "renderCategory": "Layoutable"
+                            },
+                            {
+                                "renders": [{
+                                    "renders": [{
+                                            "display": "Block",
+                                            "renders": [{
+                                                "size": 4,
+                                                "renders": [],
+                                                "repeatable": false,
+                                                "attributes": [{
+                                                    "key": "size",
+                                                    "value": "4"
+                                                }],
+                                                "renderType": "LayoutFont",
+                                                "renderCategory": "Layoutable"
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                "key": "class",
+                                                "value": "xdlabel"
+                                            }],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        },
+                                        {
+                                            "display": "Inline",
+                                            "renders": [{
+                                                "readOnly": false,
+                                                "field": "fieldDTSJ",
+                                                "controlId": "V1_CTRL14",
+                                                "attributes": [{
+                                                        "key": "style",
+                                                        "value": "FONT-SIZE: medium; FONT-FAMILY: 微软雅黑; WIDTH: 100%"
+                                                    },
+                                                    {
+                                                        "key": "class",
+                                                        "value": "xdTextBox"
+                                                    },
+                                                    {
+                                                        "key": "title",
+                                                        "value": ""
+                                                    }
+                                                ],
+                                                "renderType": "BoundLabel",
+                                                "renderCategory": "Boundable",
+                                                "properties": []
+                                            }],
+                                            "repeatable": false,
+                                            "attributes": [{
+                                                "key": "align",
+                                                "value": "center"
+                                            }],
+                                            "renderType": "LayoutDivision",
+                                            "renderCategory": "Layoutable"
+                                        }
+                                    ],
+                                    "repeatable": false,
+                                    "attributes": [{
+                                            "key": "class",
+                                            "value": "xdTableContentCell"
+                                        },
+                                        {
+                                            "key": "style",
+                                            "value": "BORDER-TOP: #808080 6pt; BORDER-RIGHT: #bfbfbf 1pt; BORDER-BOTTOM: #bfbfbf 1pt; BORDER-LEFT: #bfbfbf 1pt"
+                                        },
+                                        {
+                                            "key": "vAlign",
+                                            "value": "top"
+                                        }
+                                    ],
+                                    "renderType": "LayoutTableCell",
+                                    "renderCategory": "Layoutable"
+                                }],
+                                "repeatable": false,
+                                "attributes": [{
+                                    "key": "class",
+                                    "value": "xdTableContentRow"
+                                }],
+                                "renderType": "LayoutTableRow",
+                                "renderCategory": "Layoutable"
+                            }
+                        ],
+                        "repeatable": false,
+                        "attributes": [{
+                                "key": "style",
+                                "value": "BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 900px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none"
+                            },
+                            {
+                                "key": "class",
+                                "value": "xdFormLayout"
+                            }
+                        ],
+                        "renderType": "LayoutTable",
+                        "renderCategory": "Layoutable"
+                    }],
+                    "repeatable": false,
+                    "attributes": [{
+                        "key": "align",
+                        "value": "center"
+                    }],
+                    "renderType": "LayoutDivision",
+                    "renderCategory": "Layoutable"
+                },
+                {
+                    "display": "Inline",
+                    "renders": [{
+                        "text": " ",
+                        "renderType": "DisplayText",
+                        "renderCategory": "Displayable"
+                    }],
+                    "repeatable": false,
+                    "attributes": [{
+                        "key": "align",
+                        "value": "center"
+                    }],
+                    "renderType": "LayoutDivision",
+                    "renderCategory": "Layoutable"
+                }
+            ],
+            "repeatable": false,
+            "renderType": "FormView",
+            "renderCategory": "Layoutable",
+            "width": 640
+        }],
+        "data": {
+            "fieldDTSJ": "",
+            "_VAR_EXECUTE_INDEP_ORGANIZE_Name": "食品学院",
+            "fieldMSG": "申请已下发完成，可以正常出入校门。",
+            "_VAR_ACTION_ACCOUNT": "2021103011",
+            "_VAR_ACTION_INDEP_ORGANIZES_Codes": "000000",
+            "fieldZY": "20食品",
+            "_VAR_ACTION_REALNAME": "禾苗",
+            "_VAR_ACTION_INDEP_ORGANIZES_Names": "食品学院",
+            "_VAR_OWNER_ACCOUNT": "2021103011",
+            "_VAR_ACTION_ORGANIZES_Names": "食品学院",
+            "_VAR_STEP_CODE": "ADBC",
+            "_VAR_ACTION_ORGANIZE": "000000",
+            "_VAR_OWNER_USERCODES": "2021103011",
+            "_VAR_EXECUTE_ORGANIZE": "000000",
+            "_VAR_EXECUTE_ORGANIZES_Codes": "000000",
+            "_VAR_NOW_DAY": 30,
+            "fieldMS1": "最近一次有效出入申请时间(未过期)",
+            "_VAR_ACTION_INDEP_ORGANIZE": "000000",
+            "_VAR_OWNER_REALNAME": "禾苗",
+            "fieldXM_Name": "禾苗",
+            "_VAR_ACTION_INDEP_ORGANIZE_Name": "食品学院",
+            "_VAR_NOW": 999900000,
+            "fieldXH": "2021103011",
+            "_VAR_ACTION_ORGANIZE_Name": "食品学院",
+            "_VAR_EXECUTE_ORGANIZES_Names": "食品学院",
+            "fieldXM": "2021103011",
+            "_VAR_OWNER_ORGANIZES_Codes": "000000",
+            "_VAR_ADDR": "10.10.10.10",
+            "_VAR_URL_Attr": "{}",
+            "_VAR_ENTRY_NUMBER": 9999999,
+            "_VAR_EXECUTE_INDEP_ORGANIZES_Names": "食品学院",
+            "_VAR_STEP_NUMBER": 9999999,
+            "_VAR_POSITIONS": "000000:1:2021103011",
+            "_VAR_OWNER_ORGANIZES_Names": "食品学院",
+            "fieldTP": "{\"id\":\"21aaa648-d418-4d83-a427-f5ff59d8abe1\",\"name\":\"go.gif\",\"size\":2961,\"uri\":\"/file/21aaa648-d418-4d83-a427-f5ff59d8abe1\",\"mime\":\"image/jpeg\",\"width\":150,\"height\":50}",
+            "_VAR_EXECUTE_ORGANIZE_Name": "食品学院",
+            "_VAR_EXECUTE_INDEP_ORGANIZES_Codes": "000000",
+            "_VAR_RELEASE": true,
+            "_VAR_EXECUTE_POSITIONS": "000000:1:2021103011",
+            "_VAR_TODAY": 999900000,
+            "fieldCPH": "申请下发完成时间：2021-10-30 16:29:45",
+            "_VAR_NOW_MONTH": 10,
+            "_VAR_ACTION_USERCODES": "2021103011",
+            "fieldBM_Name": "食品学院",
+            "_VAR_ACTION_ORGANIZES_Codes": "000000",
+            "fieldBM": "000000",
+            "_VAR_EXECUTE_INDEP_ORGANIZE": "000000",
+            "_VAR_NOW_YEAR": 2021,
+            "fieldSJ": "2021-10-31 06:00:00至2021-11-06 22:00:00"
+        },
+        "snapshots": [],
+        "codes": {},
+        "fields": {
+            "fieldDTSJ": {
+                "name": "fieldDTSJ",
+                "type": "string",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rw",
+                "bound": true
+            },
+            "fieldXH": {
+                "name": "fieldXH",
+                "type": "string",
+                "label": "学号",
+                "description": "学号",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "initialValue": "2021103011",
+                "initialText": "禾苗",
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rt"
+            },
+            "fieldCPH": {
+                "name": "fieldCPH",
+                "type": "string",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rw",
+                "bound": true
+            },
+            "fieldMS1": {
+                "name": "fieldMS1",
+                "type": "string",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rw",
+                "bound": true
+            },
+            "fieldZY": {
+                "name": "fieldZY",
+                "type": "string",
+                "label": "专业",
+                "description": "专业",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rw",
+                "bound": true
+            },
+            "fieldXM": {
+                "name": "fieldXM",
+                "type": "User",
+                "label": "姓名",
+                "description": "姓名",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "initialValue": "2021103011",
+                "initialText": "禾苗",
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rt",
+                "bound": true
+            },
+            "fieldMSG": {
+                "name": "fieldMSG",
+                "type": "string",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rw",
+                "bound": true
+            },
+            "fieldSJ": {
+                "name": "fieldSJ",
+                "type": "string",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rw",
+                "bound": true
+            },
+            "fieldTP": {
+                "name": "fieldTP",
+                "type": "string",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rw",
+                "bound": true
+            },
+            "fieldBM": {
+                "name": "fieldBM",
+                "type": "Organize",
+                "label": "部门",
+                "description": "部门",
+                "groupName": "ABCDEFGH",
+                "repeatDepth": 0,
+                "initialValue": "000000",
+                "initialText": "食品学院",
+                "notNull": false,
+                "allowExternalCode": false,
+                "fieldChanging": false,
+                "permission": "rt",
+                "bound": true
+            }
+        },
+        "groups": {},
+        "actions": [{
+            "id": 1,
+            "name": "退出",
+            "code": "action1",
+            "description": "",
+            "descriptionAfterAction": "",
+            "skipValidation": false,
+            "remarkRequired": false,
+            "remarkRequiredTip": "",
+            "visible": true,
+            "shortcut": false,
+            "hideConfirmWhenNoNextStep": true,
+            "keepDraft": false
+        }],
+        "permission": {
+            "executable": true,
+            "operatable": false,
+            "inquiryable": true,
+            "administrable": false,
+            "killable": false,
+            "printable": false,
+            "exportable": false,
+            "withdrawable": false,
+            "startable": true,
+            "blocked": false,
+            "cc": false
+        },
+        "preferredWidth": 0
+    }]
+}
